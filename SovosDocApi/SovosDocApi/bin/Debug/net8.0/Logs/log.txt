@@ -1,0 +1,62 @@
+[2025-03-13 15:12:42] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-13 15:12:42] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-13 15:12:42] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-13 15:12:42] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-13 15:16:58] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-13 15:16:58] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-13 15:16:58] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-13 15:16:58] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-13 15:21:19] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-13 15:21:19] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-13 15:21:19] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-13 15:21:19] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-13 15:25:23] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-13 15:25:23] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-13 15:25:23] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-13 15:25:23] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-13 15:27:27] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-13 15:27:27] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-13 15:27:27] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-13 15:27:27] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-13 15:31:15] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-13 15:31:15] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-13 15:31:15] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-13 15:31:15] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-13 17:00:39] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-13 17:00:39] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-13 17:00:39] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-13 17:00:39] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 10:57:45] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 10:57:45] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 10:57:45] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 10:57:45] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 10:59:38] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 10:59:38] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 10:59:38] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 10:59:38] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 11:00:40] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 11:00:40] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 11:00:40] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 11:00:40] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 11:27:56] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 11:27:56] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 11:27:56] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 11:27:56] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 11:41:20] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 11:41:20] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 11:41:20] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 11:41:20] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 13:32:22] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 13:32:22] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 13:32:22] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 13:32:22] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 20:54:40] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-15 20:54:40] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-15 20:54:40] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 20:54:40] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 20:54:49] [ERROR] [SovosDocApi.Controllers.InvoiceController+<GetInvoiceLines>d__5] [MoveNext] [100] [(null)         ] [(null)         ] - 0 'li Faturaya ait satır bulunamamıştır.
+[2025-03-15 21:30:05] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-15 21:30:05] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-15 21:30:05] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 21:30:05] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 21:32:07] [INFO] [SovosDocApi.Controllers.InvoiceController+<CreateInvoice>d__3] [MoveNext] [49] [(null)         ] [(null)         ] - SVS202300000013 idli fatura başarıyla kaydedildi.

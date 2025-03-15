@@ -1,0 +1,182 @@
+[2025-03-14 20:45:28] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 20:45:28] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 20:45:28] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 20:45:28] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 20:46:05] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 20:46:05] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 20:46:05] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 20:46:05] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 20:48:34] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 20:48:34] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 20:48:34] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 20:48:34] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:03:04] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 22:03:04] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 22:03:04] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:03:04] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:04:44] [ERROR] [SovosDocApi.Controllers.InvoiceController+<CreateInvoice>d__3] [MoveNext] [42] [(null)         ] [(null)         ] - SVS202300000002 idli faturanın işlenmesi sırasında hata oluştu:
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: InvoiceLines.Id'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at SovosDocApi.Repositories.Repository`1.SaveChangesAsync() in /Users/huricaki/Downloads/Sovos/SovosDocApi/SovosDocApi/Repositories/Repository.cs:line 43
+   at SovosDocApi.Controllers.InvoiceController.CreateInvoice(InvoiceDto invoiceDto) in /Users/huricaki/Downloads/Sovos/SovosDocApi/SovosDocApi/Controllers/InvoiceController.cs:line 42
+[2025-03-14 22:14:39] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 22:14:39] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 22:14:39] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:14:39] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:15:04] [INFO] [SovosDocApi.Controllers.InvoiceController+<CreateInvoice>d__3] [MoveNext] [44] [(null)         ] [(null)         ] - SVS202300000002 idli fatura başarıyla kaydedildi.
+[2025-03-14 22:16:23] [INFO] [SovosDocApi.Controllers.InvoiceController+<CreateInvoice>d__3] [MoveNext] [44] [(null)         ] [(null)         ] - SVS202300000003 idli fatura başarıyla kaydedildi.
+[2025-03-14 22:17:34] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 22:17:34] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 22:17:34] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:17:34] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:32:04] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 22:32:04] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 22:32:04] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:32:04] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:32:40] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 22:32:40] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 22:32:40] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:32:40] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:35:08] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 22:35:08] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 22:35:08] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:35:08] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:35:44] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 22:35:44] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 22:35:44] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:35:44] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:38:25] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 22:38:25] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 22:38:25] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:38:25] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:38:40] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 22:38:40] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 22:38:40] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:38:40] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:41:32] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 22:41:33] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 22:41:33] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:41:33] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:53:29] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-14 22:53:29] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-14 22:53:29] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:53:29] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-14 22:55:12] [INFO] [SovosDocApi.Controllers.InvoiceController+<CreateInvoice>d__3] [MoveNext] [44] [(null)         ] [(null)         ] - SVS202300000004 idli fatura başarıyla kaydedildi.
+[2025-03-15 16:27:32] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-15 16:27:32] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-15 16:27:32] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 16:27:32] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 16:38:17] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-15 16:38:17] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-15 16:38:17] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 16:38:17] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 16:49:31] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-15 16:49:31] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-15 16:49:31] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 16:49:31] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 16:50:22] [INFO] [SovosDocApi.Controllers.InvoiceController+<CreateInvoice>d__3] [MoveNext] [49] [(null)         ] [(null)         ] - SVS202300000006 idli fatura başarıyla kaydedildi.
+[2025-03-15 16:52:32] [INFO] [SovosDocApi.Controllers.InvoiceController+<CreateInvoice>d__3] [MoveNext] [49] [(null)         ] [(null)         ] - SVS202300000007 idli fatura başarıyla kaydedildi.
+[2025-03-15 16:54:16] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-15 16:54:16] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-15 16:54:16] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 16:54:16] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 16:55:10] [INFO] [SovosDocApi.Controllers.InvoiceController+<CreateInvoice>d__3] [MoveNext] [49] [(null)         ] [(null)         ] - SVS202300000008 idli fatura başarıyla kaydedildi.
+[2025-03-15 16:57:26] [ERROR] [SovosDocApi.Controllers.InvoiceController+<CreateInvoice>d__3] [MoveNext] [47] [(null)         ] [(null)         ] - SVS202300000008 idli faturanın işlenmesi sırasında hata oluştu:
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: InvoiceHeaders.InvoiceId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at SovosDocApi.Repositories.Repository`1.SaveChangesAsync() in /Users/huricaki/Downloads/Sovos/SovosDocApi/SovosDocApi/Repositories/Repository.cs:line 43
+   at SovosDocApi.Controllers.InvoiceController.CreateInvoice(InvoiceDto invoiceDto) in /Users/huricaki/Downloads/Sovos/SovosDocApi/SovosDocApi/Controllers/InvoiceController.cs:line 47
+[2025-03-15 16:58:31] [INFO] [SovosDocApi.Controllers.InvoiceController+<CreateInvoice>d__3] [MoveNext] [49] [(null)         ] [(null)         ] - SVS202300000009 idli fatura başarıyla kaydedildi.
+[2025-03-15 16:58:53] [ERROR] [SovosDocApi.Controllers.InvoiceController+<CreateInvoice>d__3] [MoveNext] [47] [(null)         ] [(null)         ] - SVS202300000009 idli faturanın işlenmesi sırasında hata oluştu:
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'UNIQUE constraint failed: InvoiceHeaders.InvoiceId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at SovosDocApi.Repositories.Repository`1.SaveChangesAsync() in /Users/huricaki/Downloads/Sovos/SovosDocApi/SovosDocApi/Repositories/Repository.cs:line 43
+   at SovosDocApi.Controllers.InvoiceController.CreateInvoice(InvoiceDto invoiceDto) in /Users/huricaki/Downloads/Sovos/SovosDocApi/SovosDocApi/Controllers/InvoiceController.cs:line 47
+[2025-03-15 17:00:32] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-15 17:00:32] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-15 17:00:32] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 17:00:32] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 17:00:58] [INFO] [SovosDocApi.Controllers.InvoiceController+<CreateInvoice>d__3] [MoveNext] [50] [(null)         ] [(null)         ] - SVS202300000010 idli fatura başarıyla kaydedildi.
+[2025-03-15 17:03:46] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-15 17:03:46] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-15 17:03:46] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 17:03:46] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 17:04:45] [INFO] [SovosDocApi.Controllers.InvoiceController+<CreateInvoice>d__3] [MoveNext] [49] [(null)         ] [(null)         ] - SVS202300000015 idli fatura başarıyla kaydedildi.
+[2025-03-15 20:16:33] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-15 20:16:33] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-15 20:16:33] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 20:16:33] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 20:35:26] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-15 20:35:26] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-15 20:35:26] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 20:35:26] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 20:37:03] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-15 20:37:03] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-15 20:37:03] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 20:37:03] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 20:38:13] [INFO] [SovosDocApi.Controllers.InvoiceController+<CreateInvoice>d__3] [MoveNext] [49] [(null)         ] [(null)         ] - SVS202300000011 idli fatura başarıyla kaydedildi.
+[2025-03-15 20:38:27] [ERROR] [SovosDocApi.Controllers.InvoiceController+<GetInvoiceLines>d__5] [MoveNext] [100] [(null)         ] [(null)         ] - 0 'li Faturaya ait satır bulunamamıştır.
+[2025-03-15 20:45:22] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-15 20:45:22] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-15 20:45:22] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 20:45:22] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 20:46:38] [INFO] [SovosDocApi.Controllers.InvoiceController+<CreateInvoice>d__3] [MoveNext] [49] [(null)         ] [(null)         ] - SVS202300000012 idli fatura başarıyla kaydedildi.
+[2025-03-15 20:52:06] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding 1 jobs, 1 triggers.
+[2025-03-15 20:52:06] [INFO] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Adding job: DEFAULT.EmailJob
+[2025-03-15 20:52:06] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Scheduling job: DEFAULT.EmailJob with trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 20:52:06] [DEBUG] [Quartz.Xml.XMLSchedulingDataProcessor+<ScheduleJobs>d__53] [MoveNext] [0] [(null)         ] [(null)         ] - Rescheduling job: DEFAULT.EmailJob with updated trigger: DEFAULT.EmailJobTrigger
+[2025-03-15 20:53:09] [ERROR] [SovosDocApi.Controllers.InvoiceController+<GetInvoiceLines>d__5] [MoveNext] [100] [(null)         ] [(null)         ] - 0 'li Faturaya ait satır bulunamamıştır.

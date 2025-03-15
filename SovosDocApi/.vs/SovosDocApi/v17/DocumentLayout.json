@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B82FD7A2-4E1F-4748-809E-69DD052B14D6}|SovosTest\\SovosTest.csproj|c:\\users\\hcaki\\desktop\\abb\\sovos\\sovosdocapi\\sovostest\\controller\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82FD7A2-4E1F-4748-809E-69DD052B14D6}|SovosTest\\SovosTest.csproj|solutionrelative:sovostest\\controller\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|c:\\users\\hcaki\\desktop\\abb\\sovos\\sovosdocapi\\sovosdocapi\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|solutionrelative:sovosdocapi\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|c:\\users\\hcaki\\desktop\\abb\\sovos\\sovosdocapi\\sovosdocapi\\sovosdocapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|solutionrelative:sovosdocapi\\sovosdocapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|c:\\users\\hcaki\\desktop\\abb\\sovos\\sovosdocapi\\sovosdocapi\\repositories\\invoice\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|solutionrelative:sovosdocapi\\repositories\\invoice\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|c:\\users\\hcaki\\desktop\\abb\\sovos\\sovosdocapi\\sovosdocapi\\quartz\\sendemailjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|solutionrelative:sovosdocapi\\quartz\\sendemailjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|c:\\users\\hcaki\\desktop\\abb\\sovos\\sovosdocapi\\sovosdocapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|solutionrelative:sovosdocapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|c:\\users\\hcaki\\desktop\\abb\\sovos\\sovosdocapi\\sovosdocapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|solutionrelative:sovosdocapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|c:\\users\\hcaki\\desktop\\abb\\sovos\\sovosdocapi\\sovosdocapi\\models\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|solutionrelative:sovosdocapi\\models\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|c:\\users\\hcaki\\desktop\\abb\\sovos\\sovosdocapi\\sovosdocapi\\models\\invoiceheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|solutionrelative:sovosdocapi\\models\\invoiceheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|c:\\users\\hcaki\\desktop\\abb\\sovos\\sovosdocapi\\sovosdocapi\\repositories\\invoice\\iinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|solutionrelative:sovosdocapi\\repositories\\invoice\\iinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|c:\\users\\hcaki\\desktop\\abb\\sovos\\sovosdocapi\\sovosdocapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|solutionrelative:sovosdocapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|c:\\users\\hcaki\\desktop\\abb\\sovos\\sovosdocapi\\sovosdocapi\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|solutionrelative:sovosdocapi\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|c:\\users\\hcaki\\desktop\\abb\\sovos\\sovosdocapi\\sovosdocapi\\models\\invoiceline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|solutionrelative:sovosdocapi\\models\\invoiceline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|c:\\users\\hcaki\\desktop\\abb\\sovos\\sovosdocapi\\sovosdocapi\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|solutionrelative:sovosdocapi\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|c:\\users\\hcaki\\desktop\\abb\\sovos\\sovosdocapi\\sovosdocapi\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|solutionrelative:sovosdocapi\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Migrations\\20250313062439_CreatedSovosMig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SovosDocApi\\Migrations\\20250313062439_CreatedSovosMig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|c:\\users\\hcaki\\desktop\\abb\\sovos\\sovosdocapi\\sovosdocapi\\dataaccess\\sovosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|solutionrelative:sovosdocapi\\dataaccess\\sovosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|c:\\users\\hcaki\\desktop\\abb\\sovos\\sovosdocapi\\sovosdocapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCC2C8B-7D20-432D-98FA-F04042C0824D}|SovosDocApi\\SovosDocApi.csproj|solutionrelative:sovosdocapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosTest\\Controller\\TestController.cs",
+              "RelativeDocumentMoniker": "SovosTest\\Controller\\TestController.cs",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosTest\\Controller\\TestController.cs",
+              "RelativeToolTip": "SovosTest\\Controller\\TestController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIAgwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T11:09:49.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SendEmailJob.cs",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Quartz\\SendEmailJob.cs",
+              "RelativeDocumentMoniker": "SovosDocApi\\Quartz\\SendEmailJob.cs",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Quartz\\SendEmailJob.cs",
+              "RelativeToolTip": "SovosDocApi\\Quartz\\SendEmailJob.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAARwBYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:30:18.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "SovosDocApi\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Repositories\\Repository.cs",
+              "RelativeToolTip": "SovosDocApi\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T06:27:59.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "SovosDocApi\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "SovosDocApi\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T06:26:58.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250313062439_CreatedSovosMig.cs",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Migrations\\20250313062439_CreatedSovosMig.cs",
+              "RelativeDocumentMoniker": "SovosDocApi\\Migrations\\20250313062439_CreatedSovosMig.cs",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Migrations\\20250313062439_CreatedSovosMig.cs",
+              "RelativeToolTip": "SovosDocApi\\Migrations\\20250313062439_CreatedSovosMig.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAARwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T06:24:39.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Program.cs",
+              "RelativeDocumentMoniker": "SovosDocApi\\Program.cs",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Program.cs",
+              "RelativeToolTip": "SovosDocApi\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIApwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T06:22:17.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InvoiceHeader.cs",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Models\\InvoiceHeader.cs",
+              "RelativeDocumentMoniker": "SovosDocApi\\Models\\InvoiceHeader.cs",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Models\\InvoiceHeader.cs",
+              "RelativeToolTip": "SovosDocApi\\Models\\InvoiceHeader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:11:08.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvoiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Repositories\\Invoice\\InvoiceRepository.cs",
+              "RelativeDocumentMoniker": "SovosDocApi\\Repositories\\Invoice\\InvoiceRepository.cs",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Repositories\\Invoice\\InvoiceRepository.cs",
+              "RelativeToolTip": "SovosDocApi\\Repositories\\Invoice\\InvoiceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T07:21:57.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvoiceController.cs",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Controllers\\InvoiceController.cs",
+              "RelativeDocumentMoniker": "SovosDocApi\\Controllers\\InvoiceController.cs",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Controllers\\InvoiceController.cs",
+              "RelativeToolTip": "SovosDocApi\\Controllers\\InvoiceController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIAgwBcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T07:29:02.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SovosDocApi",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\SovosDocApi.csproj",
+              "RelativeDocumentMoniker": "SovosDocApi\\SovosDocApi.csproj",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\SovosDocApi.csproj",
+              "RelativeToolTip": "SovosDocApi\\SovosDocApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-14T11:00:24.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IInvoiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Repositories\\Invoice\\IInvoiceRepository.cs",
+              "RelativeDocumentMoniker": "SovosDocApi\\Repositories\\Invoice\\IInvoiceRepository.cs",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Repositories\\Invoice\\IInvoiceRepository.cs",
+              "RelativeToolTip": "SovosDocApi\\Repositories\\Invoice\\IInvoiceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T06:34:36.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\appsettings.json",
+              "RelativeDocumentMoniker": "SovosDocApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\appsettings.json",
+              "RelativeToolTip": "SovosDocApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-13T06:21:16.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InvoiceDto.cs",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Models\\InvoiceDto.cs",
+              "RelativeDocumentMoniker": "SovosDocApi\\Models\\InvoiceDto.cs",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Models\\InvoiceDto.cs",
+              "RelativeToolTip": "SovosDocApi\\Models\\InvoiceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:26:10.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Repositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "SovosDocApi\\Repositories\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Repositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "SovosDocApi\\Repositories\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T07:26:36.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InvoiceLine.cs",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Models\\InvoiceLine.cs",
+              "RelativeDocumentMoniker": "SovosDocApi\\Models\\InvoiceLine.cs",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Models\\InvoiceLine.cs",
+              "RelativeToolTip": "SovosDocApi\\Models\\InvoiceLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:30:30.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "SovosDocApi\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "SovosDocApi\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T07:27:12.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SovosDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\DataAccess\\SovosDbContext.cs",
+              "RelativeDocumentMoniker": "SovosDocApi\\DataAccess\\SovosDbContext.cs",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\DataAccess\\SovosDbContext.cs",
+              "RelativeToolTip": "SovosDocApi\\DataAccess\\SovosDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T06:19:09.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "SovosDocApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\hcaki\\Desktop\\ABB\\Sovos\\SovosDocApi\\SovosDocApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "SovosDocApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T06:16:17.594Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
