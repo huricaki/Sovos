@@ -14,7 +14,7 @@ Bu Proje Sovos Case Study için oluşturulmuş bir API projesidir.
 Proje .Net Core 8 ile geliştirilmiş bir API uygulamasıdır. API'nin temel amacı fatura işlemleri yapar (fatura ekleme, fatura listeleme ve fatura satırlarını alma ) ve zamanlanmış bir job işlemi gerçekleştirir.
 
 - **Veritabanı**: Veritabanı olarak Sqlite kullanılmıştır.
-- **Job İşleme**: Corn Expression olarak Quartz kullanılmıştır.
+- **Job İşleme**: Cron Expression olarak Quartz kullanılmıştır.
 - **Swagger**: API methodları için Swagger arayüzü kullanılmıştır. API'yi çalıştırdığınızda, Swagger arayüzüne `http://localhost:5218/swagger/index.html` adresinden erişebilirsiniz.
 
 ## Kurulum
@@ -22,12 +22,13 @@ Proje .Net Core 8 ile geliştirilmiş bir API uygulamasıdır. API'nin temel ama
 1. **Proje Dosyalarını İndirin**
    Git kullanarak projeyi klonlayabilirsiniz:
    ```bash
-   git clone https://github.com/kullaniciadi/proje-adi.git
+   git clone https://github.com/huricaki/Sovos.git
    ```
 
 2. **Bağımlılıkları Yükleyin**
    Proje dizinine gidin ve gerekli NuGet paketlerini yüklemek için aşağıdaki komutu çalıştırın:
    ```bash
+   cd SovosDocApi 
    cd SovosDocApi
    dotnet restore
    ```
@@ -37,7 +38,7 @@ Proje .Net Core 8 ile geliştirilmiş bir API uygulamasıdır. API'nin temel ama
    dotnet run
    ```
 
-   API, `http://localhost:5000` adresinde çalışmaya başlayacaktır.
+   API, `http://localhost:5218` adresinde çalışmaya başlayacaktır.
 
 ## API İşlemleri
 
@@ -45,7 +46,7 @@ Proje .Net Core 8 ile geliştirilmiş bir API uygulamasıdır. API'nin temel ama
 API, Fatura işlemleri için aşağıda yer alan işlemleri sunar;
 
 1. **CreateInvoice (POST)**
- - URL: `/api/records`
+ - URL: `/api/Invoice`
    - Açıklama: Gelen json objesini kaydeder.
    - Request Body:
      ```json
@@ -77,7 +78,7 @@ API, Fatura işlemleri için aşağıda yer alan işlemleri sunar;
      ```
 
 2. **GetInvoices (GET)**
-   - URL: `/api/records/{id}`
+   - URL: `/api/Invoice`
    - Açıklama: Tüm Faturaların Başlıklarını döner
    - Response:
      ```json
@@ -99,7 +100,7 @@ API, Fatura işlemleri için aşağıda yer alan işlemleri sunar;
         ]
      ```
 3. **GetInvoiceLines (Get("{id}"))**
-   - URL: `/api/records/{id}`
+   - URL: `/api/Invoice/{id}`
    - Açıklama: İlgili Fatura idsine göre faturanın başlık ve satırlarını döner
    - Parametre:
      ```string

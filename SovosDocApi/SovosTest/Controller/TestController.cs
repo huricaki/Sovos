@@ -23,10 +23,7 @@ namespace SovosTest.Controller
             _controller = new InvoiceController(_mockRepo.Object);
         }
 
-        /// <summary>
-        /// Bu Test senaryosu; 
-        /// </summary>
-        /// <returns></returns>
+        
         [Fact]
         public async Task GetInvoices_ShouldReturnOk_WhenInvoiceExists()
         {
